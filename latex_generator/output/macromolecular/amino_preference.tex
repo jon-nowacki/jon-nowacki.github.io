@@ -1,0 +1,25 @@
+
+            \documentclass[paper=a5,fontsize=16pt]{scrbook}
+            \usepackage[pdftex,active,tightpage]{preview}
+            \usepackage{amsmath}
+            \usepackage{amssymb}
+            \usepackage{amsfonts}
+            \usepackage{tikz}
+            \begin{document}
+            \begin{preview}
+
+            
+            \begin{align*}
+            E_{\text{respref}} &= -w \sum_{i}^{L_{\text{ch1}}} \sum_{j}^{L_{\text{ch2}}} P(A_i, A_j) \\
+            P(A_i, A_j) &=
+            \begin{cases}
+                \frac{f(A_i, A_j)}{\sum_{i=1}^{20} f(A_i, A_j)} \cdot \frac{t(A)}{\sum_{i=1}^{20} t(A_i)} & \text{if } c_{i,j} \leq 6 \\
+                0 & \text{otherwise}
+            \end{cases}
+            \end{align*}
+            
+
+
+            \end{preview}
+            \end{document}
+            
